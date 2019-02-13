@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@android:color/background_light"
         android:orientation="vertical">
 
         <Button
@@ -24,7 +25,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Card Name"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="@android:color/background_light" />
 
         <EditText
             android:id="@+id/BankAffiliation"
